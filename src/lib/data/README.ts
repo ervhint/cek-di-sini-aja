@@ -1,2 +1,2 @@
-// Future read-only query helpers will live here after PF-04 defines the data contract.
+// Read-only catalog data helpers live in this directory.
 export {};
