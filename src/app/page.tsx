@@ -29,26 +29,30 @@ export default async function Home() {
 
   return (
     <PublicLayout>
-      <section className="grid gap-5 rounded-lg bg-white p-6 shadow-[0_16px_40px_rgba(102,88,183,0.08)] sm:p-8 lg:grid-cols-[1.4fr_0.8fr] lg:items-end">
+      <section className="rounded-lg bg-white p-6 shadow-[0_16px_40px_rgba(102,88,183,0.08)] sm:p-8">
         <div className="space-y-5">
           <Badge tone="success">Katalog aplikasi</Badge>
           <div className="space-y-4">
             <h1 className="text-4xl font-semibold leading-tight text-[#302d3d] sm:text-5xl">
               Cek Di Sini Aja
             </h1>
-            <p className="max-w-2xl text-lg leading-8 text-[#716d80]">
-              Temukan aplikasi buatan sendiri dalam satu tempat. Pilih aplikasi
-              yang kamu butuhkan, buka langsung, atau lihat detailnya dulu.
+            <p className="max-w-3xl text-lg leading-8 text-[#716d80]">
+              Butuh sesuatu ka, Cek Di Sini Aja, di aplikasi buatan ervhint.
+              <br />
+              Butuh aplikasi apa lagi ka?{" "}
+              <a
+                className="whitespace-nowrap font-semibold text-[#6658b7] underline decoration-[#cfc7f3] underline-offset-4 transition hover:text-[#51449c] focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[#6658b7]"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSe_302CGos0uv7bcpGO6Uied0nQuTsf6AoT5w1J6r5Uwkzdlg/viewform?usp=publish-editor"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                tulis di sini
+              </a>
+              .
             </p>
           </div>
         </div>
-        <Card className="bg-[#f1eeff] shadow-none">
-          <p className="text-sm font-semibold text-[#6658b7]">Status MVP</p>
-          <p className="mt-2 text-sm leading-6 text-[#716d80]">
-            Katalog sekarang membaca aplikasi yang sudah dipublikasikan dan
-            tautan dukungan aktif dari Supabase.
-          </p>
-        </Card>
+
       </section>
 
       <section className="space-y-5" aria-labelledby="catalog-heading">
