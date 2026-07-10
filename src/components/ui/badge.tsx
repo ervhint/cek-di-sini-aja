@@ -4,10 +4,10 @@ import { cn } from "@/lib/class-names";
 type BadgeTone = "success" | "info" | "warning" | "neutral";
 
 const toneClasses: Record<BadgeTone, string> = {
-  success: "border-[#bad8c5] bg-[#e2f0e7] text-[#4f7565]",
-  info: "border-[#bcd2cf] bg-[#dfecea] text-[#4f7565]",
-  warning: "border-[#e6b99f] bg-[#f4dfd4] text-[#7a4c36]",
-  neutral: "border-[#eadfce] bg-[#efe4d3] text-[#756d64]"
+  success: "border-[#c8e8cd] bg-[#edf8ef] text-[#477251]",
+  info: "border-[#d8d0f0] bg-[#f1eeff] text-[#6658b7]",
+  warning: "border-[#efd486] bg-[#fff3cf] text-[#8a6818]",
+  neutral: "border-[#e6e0f5] bg-[#f7f4ff] text-[#716d80]"
 };
 
 export type BadgeProps = HTMLAttributes<HTMLSpanElement> & {
