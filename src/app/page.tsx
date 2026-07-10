@@ -67,7 +67,7 @@ export default async function Home() {
       <section className="grid gap-4 md:grid-cols-[1fr_1.2fr]" aria-labelledby="support-heading">
         <Card className="bg-[#f7f4ff]">
           <h2 id="support-heading" className="text-xl font-semibold text-[#302d3d]">
-            Dukung katalog ini
+            Dukung Katalog Ini
           </h2>
           <p className="mt-2 text-sm leading-6 text-[#716d80]">
             Dukung ervhint dengan traktir cendol ka.
